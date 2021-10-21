@@ -83,7 +83,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
   def test_fahrenheit_to_celsius(self):
     #add test code here
     fahrenheit_to_celsius_result = fahrenheit_to_celsius(212)
-    self.assertEquals(100, fahrenheit_to_celsius_result)
+    self.assertEqual(100, fahrenheit_to_celsius_result)
 
 
 
